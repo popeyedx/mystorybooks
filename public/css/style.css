@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.nav-wrapper .fa-bars{
+  font-size:25px;
+}
+
+footer{
+  margin-top:20px;
+}
+
+.story-text{
+  height:120px;
+  word-wrap: break-word;
+}
+
+.dash-status{
+  text-transform: capitalize;
+}
+
+#delete-form{
+  display:inline;
+}
+
+/*.card-content p {*/
+/*  text-align: justify;*/
+/*}*/
+
+.message-wrapper {
+  width: 100%;
+  height: 64px;
+  line-height: 64px;
+  font-size: 1.2em;
+}
+
+.message-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.material-icons {
+  display: inline-flex !important;
+  vertical-align: middle !important;
+}
+
+.close-btn i {
+  cursor: pointer;
+}
+
+.fadeout {
+  animation : fadeOut 1s;
+  animation-fill-mode: both;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.message-body i {
+  margin-right: .5em;
+  max-width: 24px;
+}

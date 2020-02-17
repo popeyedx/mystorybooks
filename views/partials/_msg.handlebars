@@ -1,0 +1,13 @@
+{{#if messages.success}}
+  <div class="message-wrapper green lighten-4 green-text text-darken-4">
+    <div class="container">
+      <div class="message-body">
+        <i class="material-icons">check_circle</i> {{messages.success}}
+      </div>
+      <div class="close-btn">
+        <i class="material-icons" id="myCloseBtn">close</i>
+      </div>
+    </div>
+  </div>
+{{else}}
+{{/if}}
